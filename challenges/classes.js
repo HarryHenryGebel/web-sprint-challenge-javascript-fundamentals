@@ -11,11 +11,12 @@ class Cuboid {
     return this.length * this.width * this.height;
   }
 
-  surfaceArea (){
-    return 2 * (
-      this.lenth * this.width +
-        this.length * this.height +
-        this.width * this.height);
+  surfaceArea () {
+    const side1Area = this.length * this.width,
+          side2Area = this.length * this.height,
+          side3Area = this.width * this.height;
+
+    return 2 * (side1Area + side2Area + side3Area);
   }
 }
 
