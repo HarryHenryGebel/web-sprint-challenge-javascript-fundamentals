@@ -1,4 +1,4 @@
-// ==== Closures ==== 
+// ==== Closures ====
 
 /* Task 1: Study the code below and explain in your own words why nested function can access the variable internal. */
 
@@ -16,7 +16,7 @@ function myFunction() {
 }
 myFunction();
 
-// Explanation: 
+// Explanation:
 
 // nestedFunction() can access `internal` because inner functions are
 // included in the scope of thier containing function.
