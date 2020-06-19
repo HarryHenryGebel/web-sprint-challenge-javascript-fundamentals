@@ -36,4 +36,18 @@ class Cube extends Cuboid {
   }
 }
 
+// cube volume and surface area
+// let a = edge length
+// let V = volume
+// let A = surface area
+// V = a^3
+// A = 6a^2
+// let a = 5
+// V = 125
+// A = 150
+
+const cube = new Cube(5);
+console.log(cube.volume());
+console.log(cube.surfaceArea());
+
 //  LocalWords:  surfaceArea LocalWords
