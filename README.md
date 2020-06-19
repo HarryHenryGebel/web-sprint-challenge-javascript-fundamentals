@@ -27,15 +27,38 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
 
 1. Briefly compare and contrast `.forEach` & `.map` (2-3 sentences max)
 
+**`.foreach` takes a function as an argument and calls that function
+once for each item in an array, it returns `undefined`. `.map` takes a
+function as an argument and creates a new array, calling the provided
+function once for each item in the calling array and pushing the
+return value of the provided function onto the new array, it returns
+the new array created.**
+
 2. Explain the difference between a callback and a higher order function.
+
+**A higher order function operates on other functions. They can take a function or functions as arguments, or the can return a function, or both.**
 
 3. What is closure?
 
+**A closure is a scope that has been preserved by providing a reference to an object inside of the scope to an object outside of the scope, preventing the scope from being collected.**
+
 4. Describe the four rules of the 'this' keyword.
+
+**1. When at the top level, this will refer to the window or console objects.**
+
+**2. When called using dot notation on an object method, this will
+refer to the object.**
+
+**3. In a constructor, this refers to the object being created.**
+
+**4. When we use `call` or `apply`, this is explicitly provided as an argument to `call` or `apply`.**
+
 
 5. Why do we need super() in an extended class?
 
-You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
+**To make sure that the superclass is initialized correctly.**
+
+You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade.
 
 ## Instructions
 
