@@ -11,7 +11,7 @@ class Cuboid {
     return this.length * this.width * this.height;
   }
 
-  surfaceArea () {
+  surfaceArea() {
     const side1Area = this.length * this.width,
           side2Area = this.length * this.height,
           side3Area = this.width * this.height;
