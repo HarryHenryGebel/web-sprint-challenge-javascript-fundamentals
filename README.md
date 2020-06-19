@@ -44,14 +44,14 @@ the new array created.**
 
 4. Describe the four rules of the 'this' keyword.
 
-**1. When at the top level, this will refer to the window or console objects.**
+**1. When at the top level, `this` will refer to the window or console objects.**
 
-**2. When called using dot notation on an object method, this will
+**2. When called using dot notation on an object method, `this` will
 refer to the object.**
 
-**3. In a constructor, this refers to the object being created.**
+**3. In a constructor, `this` refers to the object being created.**
 
-**4. When we use `call` or `apply`, this is explicitly provided as an argument to `call` or `apply`.**
+**4. When we use `call` or `apply`, `this` is explicitly provided as an argument to `call` or `apply`.**
 
 
 5. Why do we need super() in an extended class?
