@@ -18,6 +18,8 @@ myFunction();
 
 // Explanation: 
 
+// nestedFunction() can access `internal` because inner functions are
+// included in the scope of thier containing function.
 
 /* Task 2: Counter */
 
