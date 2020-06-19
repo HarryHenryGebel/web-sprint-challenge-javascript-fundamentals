@@ -72,7 +72,7 @@ function consume(a, b, cb) {
   * Create a function named greeting that accepts a first and last name and returns "Hello first-name last-name, nice to meet you!"
 */
 
-const add = (x, y) => return x + y;
+const add = (x, y) => x + y;
 
 const multiply = (x, y) => x * y;
 
